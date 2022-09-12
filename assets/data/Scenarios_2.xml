@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<SCENARIOS>
+	<SCENARIO>
+		<NAME>empty</NAME>
+		<DELAY>0.75</DELAY>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>laundry</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>laundry</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>shieldpack</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>shieldpack</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>balcony</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>balcony</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>balcony_hard</NAME>
+		<DELAY>0.6</DELAY>
+		<ELEMENT>
+			<TYPE>balcony</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>overhang</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>overhang</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>overhang_hard</NAME>
+		<DELAY>0.6</DELAY>
+		<ELEMENT>
+			<TYPE>overhang</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>thrower_single</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>thrower</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>thrower_single_hard</NAME>
+		<DELAY>0.6</DELAY>
+		<ELEMENT>
+			<TYPE>thrower</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>thrower_double</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>thrower</TYPE>
+			<COMMAND>medium</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>thrower_double_hard</NAME>
+		<DELAY>0.6</DELAY>
+		<ELEMENT>
+			<TYPE>thrower</TYPE>
+			<COMMAND>medium</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>squirrel_easy</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>laundry</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>squirrel</TYPE>
+			<COMMAND>easy</COMMAND>
+			<OFFSET>28</OFFSET>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>squirrel_hard</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>laundry</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>squirrel</TYPE>
+			<COMMAND>hard</COMMAND>
+			<OFFSET>28</OFFSET>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>squirrel_hardest</NAME>
+		<DELAY>0.6</DELAY>
+		<ELEMENT>
+			<TYPE>laundry</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>squirrel</TYPE>
+			<COMMAND>hard</COMMAND>
+			<OFFSET>28</OFFSET>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>bird_easy</NAME>
+		<DELAY>1.8</DELAY>
+		<ELEMENT>
+			<TYPE>bird</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>bird_hard</NAME>
+		<DELAY>1.7</DELAY>
+		<ELEMENT>
+			<TYPE>bird</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>climber</NAME>
+		<DELAY>1.2</DELAY>
+		<ELEMENT>
+			<TYPE>climber</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>thrower_bomb</NAME>
+		<DELAY>0.85</DELAY>
+		<ELEMENT>
+			<TYPE>thrower</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>thrower_bomb_hard</NAME>
+		<DELAY>0.7</DELAY>
+		<ELEMENT>
+			<TYPE>thrower</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>gauntlet</NAME>
+		<DELAY>2.25</DELAY>
+		<ELEMENT>
+			<TYPE>overhang</TYPE>
+			<OFFSET>0</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>overhang</TYPE>
+			<OFFSET>160</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>overhang</TYPE>
+			<OFFSET>320</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>overhang</TYPE>
+			<OFFSET>480</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>overhang_close_call</NAME>
+		<DELAY>1.0</DELAY>
+		<ELEMENT>
+			<TYPE>overhang</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>overhang</TYPE>
+			<OFFSET>120</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>balcony_close_call</NAME>
+		<DELAY>1.0</DELAY>
+		<ELEMENT>
+			<TYPE>balcony</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>balcony</TYPE>
+			<OFFSET>70</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>new_high_score</NAME>
+		<DELAY>1.5</DELAY>
+		<ELEMENT>
+			<TYPE>high_score</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+</SCENARIOS>

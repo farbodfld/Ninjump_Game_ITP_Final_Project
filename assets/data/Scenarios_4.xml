@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<SCENARIOS>
+	<SCENARIO>
+		<NAME>empty</NAME>
+		<DELAY>0.75</DELAY>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>shieldpack</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>shieldpack</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>rope</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>rope</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>mast</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>mast</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>mast_hard</NAME>
+		<DELAY>0.65</DELAY>
+		<ELEMENT>
+			<TYPE>mast</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>crows_nest</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>crows_nest</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>crows_nest_hard</NAME>
+		<DELAY>0.65</DELAY>
+		<ELEMENT>
+			<TYPE>crows_nest</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>foliage</NAME>
+		<DELAY>0.9</DELAY>
+		<ELEMENT>
+			<TYPE>foliage</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>cannon_easy</NAME>
+		<DELAY>0.9</DELAY>
+		<ELEMENT>
+			<TYPE>cannon</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>cannon_hard</NAME>
+		<DELAY>0.8</DELAY>
+		<ELEMENT>
+			<TYPE>cannon</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>parrot_easy</NAME>
+		<DELAY>1.8</DELAY>
+		<ELEMENT>
+			<TYPE>parrot</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>parrot_hard</NAME>
+		<DELAY>1.7</DELAY>
+		<ELEMENT>
+			<TYPE>parrot</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>hooker_easy</NAME>
+		<DELAY>0.7</DELAY>
+		<ELEMENT>
+			<TYPE>hooker</TYPE>
+			<COMMAND>easy</COMMAND>
+			<OFFSET>-15.5</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>rope</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>hooker_hard</NAME>
+		<DELAY>0.6</DELAY>
+		<ELEMENT>
+			<TYPE>hooker</TYPE>
+			<COMMAND>hard</COMMAND>
+			<OFFSET>-15.5</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>rope</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>kraken_easy</NAME>
+		<DELAY>3.8</DELAY>
+		<ELEMENT>
+			<TYPE>kraken</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>kraken_hard</NAME>
+		<DELAY>2.0</DELAY>
+		<ELEMENT>
+			<TYPE>kraken</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>kraken_hardest</NAME>
+		<DELAY>2.0</DELAY>
+		<ELEMENT>
+			<TYPE>kraken</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>crows_nest</TYPE>
+			<COMMAND>hard</COMMAND>
+			<OFFSET>80</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>crows_nest</TYPE>
+			<COMMAND>hard</COMMAND>
+			<OFFSET>280</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>swinger_easy</NAME>
+		<DELAY>1.5</DELAY>
+		<ELEMENT>
+			<TYPE>swinger</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>rope</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>swinger_hard</NAME>
+		<DELAY>1.4</DELAY>
+		<ELEMENT>
+			<TYPE>swinger</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>rope</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>gauntlet</NAME>
+		<DELAY>2.25</DELAY>
+		<ELEMENT>
+			<TYPE>crows_nest</TYPE>
+			<OFFSET>0</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>crows_nest</TYPE>
+			<OFFSET>170</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>crows_nest</TYPE>
+			<OFFSET>340</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>crows_nest</TYPE>
+			<OFFSET>510</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>mast_close_call</NAME>
+		<DELAY>1.0</DELAY>
+		<ELEMENT>
+			<TYPE>mast</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>mast</TYPE>
+			<OFFSET>128</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>crows_nest_close_call</NAME>
+		<DELAY>1.0</DELAY>
+		<ELEMENT>
+			<TYPE>crows_nest</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>crows_nest</TYPE>
+			<OFFSET>75</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>new_high_score</NAME>
+		<DELAY>1.5</DELAY>
+		<ELEMENT>
+			<TYPE>high_score</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+</SCENARIOS>

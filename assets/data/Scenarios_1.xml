@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<SCENARIOS>
+	<SCENARIO>
+		<NAME>empty</NAME>
+		<DELAY>0.75</DELAY>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>shieldpack</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>shieldpack</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>drawbridge</NAME>
+		<DELAY>1.2</DELAY>
+		<ELEMENT>
+			<TYPE>drawbridge</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>knight</NAME>
+		<DELAY>1.2</DELAY>
+		<ELEMENT>
+			<TYPE>knight</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>horse</NAME>
+		<DELAY>1.2</DELAY>
+		<ELEMENT>
+			<TYPE>horse</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>chain</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>chain</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>troll_easy</NAME>
+		<DELAY>0.9</DELAY>
+		<ELEMENT>
+			<TYPE>bridge</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>troll</TYPE>
+			<COMMAND>easy</COMMAND>
+			<OFFSET>64</OFFSET>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>troll_hard</NAME>
+		<DELAY>0.9</DELAY>
+		<ELEMENT>
+			<TYPE>bridge</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>troll</TYPE>
+			<COMMAND>hard</COMMAND>
+			<OFFSET>64</OFFSET>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>archer_easy</NAME>
+		<DELAY>1.0</DELAY>
+		<ELEMENT>
+			<TYPE>archer</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>archer_hard</NAME>
+		<DELAY>0.9</DELAY>
+		<ELEMENT>
+			<TYPE>archer</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>gargoyle_easy</NAME>
+		<DELAY>1.2</DELAY>
+		<ELEMENT>
+			<TYPE>gargoyle</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>gargoyle_hard</NAME>
+		<DELAY>1.1</DELAY>
+		<ELEMENT>
+			<TYPE>gargoyle</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>catapult_easy</NAME>
+		<DELAY>1.0</DELAY>
+		<ELEMENT>
+			<TYPE>catapult</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>catapult_hard</NAME>
+		<DELAY>1.0</DELAY>
+		<ELEMENT>
+			<TYPE>catapult</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>dragon_easy</NAME>
+		<DELAY>3.0</DELAY>
+		<ELEMENT>
+			<TYPE>dragon</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>dragon_hard</NAME>
+		<DELAY>2.6</DELAY>
+		<ELEMENT>
+			<TYPE>dragon</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>dragon_cheap_shot</NAME>
+		<DELAY>2.6</DELAY>
+		<ELEMENT>
+			<TYPE>catapult</TYPE>
+			<COMMAND>hard</COMMAND>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>dragon</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>dragon_cheaper_shot</NAME>
+		<DELAY>5.4</DELAY>
+		<ELEMENT>
+			<TYPE>catapult</TYPE>
+			<COMMAND>hard</COMMAND>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>dragon</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>knightmare</NAME>
+		<DELAY>1.3</DELAY>
+		<ELEMENT>
+			<TYPE>knight</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>knight</TYPE>
+			<COMMAND>easy</COMMAND>
+			<REVERSED>true</REVERSED>
+			<OFFSET>100</OFFSET>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>horsing_around</NAME>
+		<DELAY>2.0</DELAY>
+		<ELEMENT>
+			<TYPE>horse</TYPE>
+			<OFFSET>0</OFFSET>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>horse</TYPE>
+			<OFFSET>175</OFFSET>
+			<REVERSED>true</REVERSED>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>horse</TYPE>
+			<OFFSET>350</OFFSET>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>horse</TYPE>
+			<OFFSET>525</OFFSET>
+			<REVERSED>true</REVERSED>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>gargizzle</NAME>
+		<DELAY>1.0</DELAY>
+		<ELEMENT>
+			<TYPE>gargoyle</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>drawbridge</TYPE>
+			<OFFSET>120</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>gargoyle</TYPE>
+			<COMMAND>easy</COMMAND>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>new_high_score</NAME>
+		<DELAY>1.5</DELAY>
+		<ELEMENT>
+			<TYPE>high_score</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+</SCENARIOS>

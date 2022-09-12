@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<SCENARIOS>
+	<SCENARIO>
+		<NAME>empty</NAME>
+		<DELAY>0.75</DELAY>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>shieldpack</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>shieldpack</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>bridge</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>bridge</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>branch</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>branch</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>branch_hard</NAME>
+		<DELAY>0.65</DELAY>
+		<ELEMENT>
+			<TYPE>branch</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>flytrap</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>flytrap</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>flytrap_hard</NAME>
+		<DELAY>0.65</DELAY>
+		<ELEMENT>
+			<TYPE>flytrap</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>foliage</NAME>
+		<DELAY>0.9</DELAY>
+		<ELEMENT>
+			<TYPE>foliage</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>frog_easy</NAME>
+		<DELAY>0.8</DELAY>
+		<ELEMENT>
+			<TYPE>frog</TYPE>
+			<COMMAND>easy</COMMAND>
+			<OFFSET>24</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>bridge</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>frog_hard</NAME>
+		<DELAY>0.7</DELAY>
+		<ELEMENT>
+			<TYPE>frog</TYPE>
+			<COMMAND>easy</COMMAND>
+			<OFFSET>24</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>bridge</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>witch_easy</NAME>
+		<DELAY>0.75</DELAY>
+		<ELEMENT>
+			<TYPE>witch</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>witch_hard</NAME>
+		<DELAY>0.65</DELAY>
+		<ELEMENT>
+			<TYPE>witch</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>monkey_easy</NAME>
+		<DELAY>0.8</DELAY>
+		<ELEMENT>
+			<TYPE>monkey</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>beetle_easy</NAME>
+		<DELAY>1.4</DELAY>
+		<ELEMENT>
+			<TYPE>beetle</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>beetle_hard</NAME>
+		<DELAY>1.2</DELAY>
+		<ELEMENT>
+			<TYPE>beetle</TYPE>
+			<COMMAND>hard</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>snake_short</NAME>
+		<DELAY>0.8</DELAY>
+		<ELEMENT>
+			<TYPE>snake_short</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>snake_medium</NAME>
+		<DELAY>0.9</DELAY>
+		<ELEMENT>
+			<TYPE>snake_medium</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>snake_long</NAME>
+		<DELAY>0.95</DELAY>
+		<ELEMENT>
+			<TYPE>snake_long</TYPE>
+			<COMMAND>easy</COMMAND>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>gauntlet</NAME>
+		<DELAY>2.25</DELAY>
+		<ELEMENT>
+			<TYPE>branch</TYPE>
+			<OFFSET>0</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>branch</TYPE>
+			<OFFSET>170</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>branch</TYPE>
+			<OFFSET>340</OFFSET>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>branch</TYPE>
+			<OFFSET>510</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>branch_close_call</NAME>
+		<DELAY>1.0</DELAY>
+		<ELEMENT>
+			<TYPE>branch</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>branch</TYPE>
+			<OFFSET>135</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>flytrap_close_call</NAME>
+		<DELAY>1.0</DELAY>
+		<ELEMENT>
+			<TYPE>flytrap</TYPE>
+		</ELEMENT>
+		<ELEMENT>
+			<TYPE>flytrap</TYPE>
+			<OFFSET>65</OFFSET>
+			<REVERSED>true</REVERSED>
+		</ELEMENT>
+	</SCENARIO>
+
+	<SCENARIO>
+		<NAME>new_high_score</NAME>
+		<DELAY>1.5</DELAY>
+		<ELEMENT>
+			<TYPE>high_score</TYPE>
+		</ELEMENT>
+	</SCENARIO>
+
+</SCENARIOS>
